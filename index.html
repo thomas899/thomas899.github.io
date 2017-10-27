@@ -1,0 +1,30 @@
+<html>
+<head>
+     <title> Joulu tulee</title>
+	 <style>
+	  body{
+	       background-color: red;
+		}
+	 </style>
+	 <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+	 <script>
+	 window.onload = function() {
+	
+	 $('#kylla_nappi').click( function() {
+	     $('#kylla_teksti').show();
+		 });
+		 
+		 $('#kylla_teksti').hide();
+		 }
+	 
+		 </script>
+		 
+	 
+</head>
+<body>
+<h1>Joulusivu</h1>
+<p>Pian tulee joulu. On aika valmistautua.</p>
+<button id="kylla_nappi">Kyllä</button>
+<p id="kylla_teksti">Voitit pelin!</p>
+</body>
+</html>
